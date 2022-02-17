@@ -29,7 +29,7 @@ header #mobile_button {
 
 header .logo-img {
   content: url("../img/bueno finance logo.svg");
-  width: 100%;
+  width: auto;
   height: 68px;
   margin-top: 16px;
   margin-bottom: 16px;
