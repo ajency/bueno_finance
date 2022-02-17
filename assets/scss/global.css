@@ -13,10 +13,6 @@ header .navbar-brand {
   padding: 0;
 }
 
-header .container {
-  padding: 0;
-}
-
 header li a {
   color: #ffffff !important;
   margin-left: 25px;
