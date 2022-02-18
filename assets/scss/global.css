@@ -58,8 +58,77 @@ header .logo-mobile {
   }
 }
 
+footer {
+  background-color: #134E19;
+  max-width: 2000px;
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+  font-size: 16px;
+  padding-top: 60px;
+  font-family: Montserrat;
+}
+
+footer .footer-logo {
+  content: url("../img/footer logo.svg");
+}
+
+footer .twitter {
+  content: url("../img/twitter.svg");
+  display: inline-block;
+  padding-right: 20px;
+}
+
+footer .insta {
+  content: url("../img/insta.svg");
+  display: inline-block;
+  padding-right: 20px;
+}
+
+footer .fb {
+  content: url("../img/fb.svg");
+  display: inline-block;
+  padding-right: 20px;
+}
+
+footer .footer-head, footer .company-head {
+  font-weight: 600;
+}
+
+footer .sub-footer {
+  padding-top: 91px;
+  padding-bottom: 27px;
+  font-weight: 300;
+  font-family: Montserrat;
+}
+
+footer .footer-head {
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 991px) {
+  footer {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 45px;
+  }
+  footer .footer-head {
+    padding-bottom: 20px;
+    padding-top: 30px;
+  }
+  footer .footer-logo {
+    content: url("../img/footer logo mobile.svg");
+  }
+}
+
 * {
   border: 0;
   padding: 0;
+}
+
+body {
+  width: 100%;
 }
 /*# sourceMappingURL=global.css.map */
